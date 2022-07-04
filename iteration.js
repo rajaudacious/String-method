@@ -7,7 +7,7 @@ let txt = "";
 numbers.forEach(myfunction);
 
 function myfunction(value, index, Array) {
-  txt += value + "<br>";
+  txt += value + "";
   console.log(index, Array, value);
 }
 
@@ -107,3 +107,11 @@ const fruits6 = ["Banana", "Orange", "Apple", "Mango"];
 const inclu = fruits6.includes("Mango");
 console.log(inclu);
 
+  const arr = ["vijay","raj","yuvraj","hariom","lakhera"];
+  const rs = arr.map(fun);  
+  function fun  (value,index,array){
+    return +1;
+  }
+  console.log(arr[2]);
+
+  
